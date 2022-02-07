@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/pokemon-MilestonePractice/static/css/main.e3e602e1.css",
+    "main.js": "/pokemon-MilestonePractice/static/js/main.3ebe2445.js",
+    "static/js/787.3397b452.chunk.js": "/pokemon-MilestonePractice/static/js/787.3397b452.chunk.js",
+    "index.html": "/pokemon-MilestonePractice/index.html",
+    "main.e3e602e1.css.map": "/pokemon-MilestonePractice/static/css/main.e3e602e1.css.map",
+    "main.3ebe2445.js.map": "/pokemon-MilestonePractice/static/js/main.3ebe2445.js.map",
+    "787.3397b452.chunk.js.map": "/pokemon-MilestonePractice/static/js/787.3397b452.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e3e602e1.css",
+    "static/js/main.3ebe2445.js"
+  ]
+}

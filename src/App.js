@@ -9,6 +9,7 @@ function App() {
   console.log(first50el);
   return (
     <div className="App">
+      <SearchForm />
       <PokemonList pokemons={first50el} />
     </div>
   );

@@ -19,21 +19,27 @@ const SearchForm = (props) => {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
-      <input
-        type="text"
-        placeholder="name of pokemon"
-        value={name}
-        onChange={handleNameChange}
-      />
-      <input
-        type="text"
-        placeholder="type of pokemon"
-        value={type}
-        onChange={handleTypeChange}
-      />
-      <button type="submit">Search</button>
-    </form>
+    <div className="inputContainer">
+      <form onSubmit={handleSubmit}>
+        <input
+          className="nameText"
+          type="text"
+          placeholder="name of pokemon"
+          value={name}
+          onChange={handleNameChange}
+        />
+        <input
+          className="typeText"
+          type="text"
+          placeholder="type of pokemon"
+          value={type}
+          onChange={handleTypeChange}
+        />
+        <button type="submit" className="button">
+          Search
+        </button>
+      </form>
+    </div>
   );
 };
 

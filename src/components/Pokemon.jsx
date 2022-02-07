@@ -5,9 +5,11 @@ const Pokemon = (props) => {
     <div className="cardContainer">
       <h1 className="name">{props.name}</h1>
       <img src={props.img} alt="pokemon" className="img" />
-      {props.type.map((type) => {
-        return <Type key={type} type={type} />;
-      })}
+      <div className="type">
+        {props.type.map((type) => {
+          return <Type key={type} type={type} />;
+        })}
+      </div>
     </div>
   );
 };
